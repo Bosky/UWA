@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWA.Core", "UWA.Core\UWA.Core.csproj", "{DB684F45-65E5-494B-87D4-4B9BD8C40622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWA.Core.MonoAndroid", "UWA.Core.MonoAndroid\UWA.Core.MonoAndroid.csproj", "{7D0E31C9-6182-43C5-8313-B9959E4E650A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWA.AndroidClient", "UWA.AndroidClient\UWA.AndroidClient.csproj", "{16B78CB7-1079-4DBF-84FB-936C32132D4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB684F45-65E5-494B-87D4-4B9BD8C40622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB684F45-65E5-494B-87D4-4B9BD8C40622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB684F45-65E5-494B-87D4-4B9BD8C40622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB684F45-65E5-494B-87D4-4B9BD8C40622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0E31C9-6182-43C5-8313-B9959E4E650A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0E31C9-6182-43C5-8313-B9959E4E650A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0E31C9-6182-43C5-8313-B9959E4E650A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0E31C9-6182-43C5-8313-B9959E4E650A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B78CB7-1079-4DBF-84FB-936C32132D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B78CB7-1079-4DBF-84FB-936C32132D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B78CB7-1079-4DBF-84FB-936C32132D4D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16B78CB7-1079-4DBF-84FB-936C32132D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B78CB7-1079-4DBF-84FB-936C32132D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B78CB7-1079-4DBF-84FB-936C32132D4D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
