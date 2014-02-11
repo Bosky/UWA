@@ -47,6 +47,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.GoogleMaps" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,9 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\CategoryListAdapter.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="MapsActivity.cs" />
-    <Compile Include="PlaceCategoryActivity.cs" />
+    <Compile Include="PlaceCategoriesActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -64,6 +66,12 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\Layout\Maps.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\Category.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\PlaceCategories.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -89,6 +97,8 @@
     <AndroidResource Include="Resources\Drawable\drawable-xhdpi\ic_action_view_as_list.png" />
     <AndroidResource Include="Resources\Drawable\drawable-xxhdpi\ic_action_search.png" />
     <AndroidResource Include="Resources\Drawable\drawable-xxhdpi\ic_action_view_as_list.png" />
+    <AndroidResource Include="Resources\Values\Colors.xml" />
+    <AndroidResource Include="Resources\Values\version.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UWA.Core.MonoAndroid\UWA.Core.MonoAndroid.csproj">

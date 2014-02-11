@@ -3,10 +3,12 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <com.google.android.maps.MapView
-        android:id="@+id/map"
+    <TextView
+        android:id="@+id/CategoryLabel"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:apiKey="AIzaSyBRo9unjb_D00miBjcQIPkD4ZCrkI9jVmI" />
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="5dip" />
 </LinearLayout>

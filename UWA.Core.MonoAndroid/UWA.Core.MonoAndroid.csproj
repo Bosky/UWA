@@ -41,6 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\UWA.Core\BL\Classroom.cs">
+      <Link>Classroom.cs</Link>
+    </Compile>
+    <Compile Include="..\UWA.Core\BL\Interfaces\Interfaces.cs">
+      <Link>BL\Interfaces\Interfaces.cs</Link>
+    </Compile>
+    <Compile Include="..\UWA.Core\BL\Managers\PlaceManager.cs">
+      <Link>BL\Managers\PlaceManager.cs</Link>
+    </Compile>
+    <Compile Include="..\UWA.Core\BL\PlaceCategory.cs">
+      <Link>PlaceCategory.cs</Link>
+    </Compile>
     <Compile Include="..\UWA.Core\Class1.cs">
       <Link>Class1.cs</Link>
     </Compile>

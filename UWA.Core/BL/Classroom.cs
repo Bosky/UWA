@@ -13,7 +13,6 @@ namespace UWA.Core.BL
         public int Campus { get; set; }
         public int Building { get; set; }
 
-
         double IMapsObject.Longitude { get; set; }
         double IMapsObject.Latitude { get; set; }
     }

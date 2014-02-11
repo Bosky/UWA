@@ -41,6 +41,46 @@ namespace UWA.AndroidClient
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040001
+			public const int black = 2130968577;
+			
+			// aapt resource value: 0x7f040008
+			public const int bluetext = 2130968584;
+			
+			// aapt resource value: 0x7f040003
+			public const int grey = 2130968579;
+			
+			// aapt resource value: 0x7f040005
+			public const int icongrey = 2130968581;
+			
+			// aapt resource value: 0x7f040002
+			public const int lightgrey = 2130968578;
+			
+			// aapt resource value: 0x7f040006
+			public const int listhighlight = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int listseparator = 2130968583;
+			
+			// aapt resource value: 0x7f040000
+			public const int transparent = 2130968576;
+			
+			// aapt resource value: 0x7f040004
+			public const int white = 2130968580;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -66,17 +106,29 @@ namespace UWA.AndroidClient
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int HelloText = 2131099648;
+			// aapt resource value: 0x7f080004
+			public const int CategoriesSubtitle = 2131230724;
 			
-			// aapt resource value: 0x7f060001
-			public const int MyButton = 2131099649;
+			// aapt resource value: 0x7f080000
+			public const int CategoryLabel = 2131230720;
 			
-			// aapt resource value: 0x7f060003
-			public const int action_places = 2131099651;
+			// aapt resource value: 0x7f080005
+			public const int CategoryList = 2131230725;
 			
-			// aapt resource value: 0x7f060002
-			public const int action_search = 2131099650;
+			// aapt resource value: 0x7f080001
+			public const int HelloText = 2131230721;
+			
+			// aapt resource value: 0x7f080002
+			public const int MyButton = 2131230722;
+			
+			// aapt resource value: 0x7f080007
+			public const int action_places = 2131230727;
+			
+			// aapt resource value: 0x7f080006
+			public const int action_search = 2131230726;
+			
+			// aapt resource value: 0x7f080003
+			public const int map = 2131230723;
 			
 			static Id()
 			{
@@ -88,14 +140,36 @@ namespace UWA.AndroidClient
 			}
 		}
 		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int google_play_services_version = 2131099648;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int Category = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Maps = 2130903041;
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Maps = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int PlaceCategories = 2130903043;
 			
 			static Layout()
 			{
@@ -110,8 +184,8 @@ namespace UWA.AndroidClient
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MapsMenu = 2131034112;
+			// aapt resource value: 0x7f070000
+			public const int MapsMenu = 2131165184;
 			
 			static Menu()
 			{
@@ -126,17 +200,20 @@ namespace UWA.AndroidClient
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050002
+			public const int CategoriesSubtitle = 2131034114;
 			
-			// aapt resource value: 0x7f040003
-			public const int action_listPlaces = 2130968579;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
-			// aapt resource value: 0x7f040002
-			public const int action_searchPlaces = 2130968578;
+			// aapt resource value: 0x7f050004
+			public const int action_listPlaces = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int action_searchPlaces = 2131034115;
 			
 			static String()
 			{

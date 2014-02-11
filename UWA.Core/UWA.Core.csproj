@@ -43,6 +43,7 @@
     <Compile Include="BL\Classroom.cs" />
     <Compile Include="BL\Interfaces\Interfaces.cs" />
     <Compile Include="BL\Managers\PlaceManager.cs" />
+    <Compile Include="BL\PlaceCategory.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,7 +5,12 @@
         int Id { get; set; }
     }
 
-    public interface IMapsObject
+    public interface IPlaceCategory
+    {
+        string Name { get; }
+    }
+
+    interface IMapsObject
     {
         double Longitude { get; set; }
         double Latitude { get; set; }

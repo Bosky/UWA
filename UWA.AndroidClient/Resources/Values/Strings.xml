@@ -2,6 +2,7 @@
 <resources>
     <string name="Hello">Hello UWA users, my name is Olli and I am your moderator today :)</string>
     <string name="ApplicationName">the Worcester Uni App</string>
+    <string name="CategoriesSubtitle">Navigate around campus by caregory</string>
     <string name="action_searchPlaces">Search</string>
     <string name="action_listPlaces">Places</string>
 </resources>
